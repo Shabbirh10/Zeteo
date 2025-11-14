@@ -60,25 +60,9 @@ The goal is simplicity + extensibility without unnecessary complexity.
 * Add chat analytics and logging
 * Role-based system prompts
 
----
-
-## 🏷️ License
-
-Use any license you prefer (MIT recommended).
-
----
 
 ## 🙌 Acknowledgements
 
 Built using LangChain, Gradio, and Hugging Face open-source models.
 Inspired by modern conversational AI system design patterns.
 
----
-
-If you'd like, I can also generate:
-🔥 A **Zeteo logo**
-🎨 A **banner** for the README
-🧪 A **badge pack**
-📂 Optional **docs/ folder content**
-
-Just tell me!
