@@ -1,7 +1,3 @@
-Here is your **complete GitHub-ready README.md** for your LangChain chatbot project named **Zeteo** — clean, professional, and not AI-sounding:
-
----
-
 # 🔍 **Zeteo**
 
 ### *Seek. Understand. Respond.*
