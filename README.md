@@ -25,18 +25,6 @@ It focuses on smooth conversational flow, memory retention, and a simple archite
   Add RAG, custom prompts, vector search, API integrations, or domain-based fine-tuning.
 
 
-
-## 📁 Project Structure
-
-```
-zeteo/
-├── app.py                 # Gradio interface + chat loop
-├── chatbot.py             # LangChain setup, memory, and model pipeline
-├── config.py              # Model name, prompts, memory settings
-├── requirements.txt
-└── README.md
-```
-
 ---
 
 ## 🧠 How Zeteo Works
