@@ -28,40 +28,7 @@ It focuses on smooth conversational flow, memory retention, and a simple archite
 * **Fully Extensible**
   Add RAG, custom prompts, vector search, API integrations, or domain-based fine-tuning.
 
----
 
-## 🚀 Getting Started
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/your-username/zeteo.git
-cd zeteo
-```
-
-### 2. Install Dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### 3. Add Your Hugging Face Token
-
-Create a `.env` file:
-
-```
-HUGGING_FACE_HUB_TOKEN=your_token_here
-```
-
-### 4. Run the App
-
-```bash
-python app.py
-```
-
-Zeteo will open automatically in your browser through Gradio.
-
----
 
 ## 📁 Project Structure
 
