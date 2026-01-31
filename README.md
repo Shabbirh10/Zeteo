@@ -1,56 +1,39 @@
-# 🔍 **Zeteo**
+🤖 Problem It Solves
 
-### *Seek. Understand. Respond.*
+Cloud-based LLMs are costly and raise privacy concerns.
+This project demonstrates running a large language model locally, enabling offline and private inference without relying on cloud APIs.
 
-Zeteo is a lightweight, context-aware AI chatbot built using **LangChain**, **Hugging Face models**, and a **Gradio** web interface.
-It focuses on smooth conversational flow, memory retention, and a simple architecture that’s easy to modify and extend.
+🛠 Tech Stack
 
----
+Python
 
-## ✨ Features
+Mistral-7B
 
-* **Contextual Memory**
-  Remembers previous user messages to deliver connected, human-like responses.
+Hugging Face
 
-* **LangChain-Powered Pipeline**
-  Uses Prompt Templates, ConversationBufferMemory, and model chaining for modular design.
+ctransformers
 
-* **Hugging Face LLM Support**
-  Works with open-source models like Mistral-7B, Llama-2, etc.
+CPU-based inference
 
-* **Clean Gradio UI**
-  Instant browser-based chat interface.
+🏗 Architecture
+User Prompt
+     |
+Tokenizer
+     |
+Local Mistral-7B Model
+     |
+Generated Response
 
-* **Fully Extensible**
-  Add RAG, custom prompts, vector search, API integrations, or domain-based fine-tuning.
+▶ How to Run
+git clone https://github.com/Shabbirh10/on-device-llm.git
+cd on-device-llm
+pip install -r requirements.txt
+python run_model.py
 
+✨ Highlights
 
----
+Fully offline LLM execution
 
-## 🧠 How Zeteo Works
+Optimized for low-resource systems
 
-1. Loads an open-source LLM via Hugging Face.
-2. Wraps it inside a LangChain LLM wrapper.
-3. Uses a structured **PromptTemplate** for consistent responses.
-4. Maintains history using **ConversationBufferMemory**.
-5. Streams responses in real time through Gradio.
-
-The goal is simplicity + extensibility without unnecessary complexity.
-
----
-
-## 🔮 Future Enhancements
-
-* Add Retrieval-Augmented Generation (RAG)
-* Use a vector DB like Pinecone / Chroma
-* Integrate voice input/output
-* Deploy on Hugging Face Spaces or AWS
-* Add chat analytics and logging
-* Role-based system prompts
-
-
-## 🙌 Acknowledgements
-
-Built using LangChain, Gradio, and Hugging Face open-source models.
-Inspired by modern conversational AI system design patterns.
-
+Practical understanding of LLM deployment constraints
